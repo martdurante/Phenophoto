@@ -6,4 +6,4 @@ Martín Jaurena
 
 # Modo de uso
 - El script procesarFotos.py lee una foto tomada con el panel blanco, la procesa y estima algunas variables cuantitativas.
-- El procesamiento consiste en 1) recortar el panel (para eso se basa en los marcadores aruco) y 2) seprar área ocupada por vegetación de fondo blanco
+- El procesamiento consiste en 1) recortar el panel; para eso se basa en los marcadores aruco y la imagen aruco.jpg, que se usa para corregir la perspectiva mediante homografìa y 2) separar el área ocupada por vegetación del fondo blanco mediante un umbral
